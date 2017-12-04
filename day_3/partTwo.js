@@ -134,7 +134,7 @@ const moveDown = () => {
   currentDirection = "right";
 };
 
-const buildSpiral = (data) => {
+export default (data) => {
   while (currentValue < data) {
     switch (currentDirection) {
       case "right":
@@ -154,5 +154,3 @@ const buildSpiral = (data) => {
 
   return spiral;
 }
-
-console.log(`Part Two Solution: ${buildSpiral(361527)[0][1]}`);
