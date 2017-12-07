@@ -1,4 +1,17 @@
+# vim
 *.swp
+
+# python
 *.pyc
 
+# node
 node_modules/
+
+# elixir
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+erl_crash.dump
+*.ez
